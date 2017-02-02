@@ -35,7 +35,15 @@ html body {
     font-size: 3.2rem;
     font-weight: 300; }
 
-/* line 35, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+/* line 34, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+.nav-wrapper {
+  height: 8rem; }
+
+/* line 36, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+#navigation {
+  height: 8rem; }
+
+/* line 38, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
 .navbar-fixed {
   position: fixed;
   z-index: 1;
@@ -44,7 +52,7 @@ html body {
   background-color: #f7f9f8;
   box-shadow: 0px 1px 2px rgba(32, 37, 25, 0.6); }
 
-/* line 43, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+/* line 46, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
 .close-btn,
 .open-btn {
   position: absolute;
@@ -55,13 +63,13 @@ html body {
   margin-top: 3rem;
   margin-right: 1.5rem; }
 
-/* line 52, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+/* line 55, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
 .links__open {
   float: right;
   height: 15rem;
   padding-top: 1rem;
   margin-top: 5rem; }
-  /* line 57, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 60, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   .links__open a {
     width: 15rem;
     text-align: right;
@@ -72,58 +80,58 @@ html body {
     text-decoration: none;
     margin: 1rem;
     padding: 0.2rem; }
-  /* line 67, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 70, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   .links__open a:hover {
     text-decoration: none; }
-  /* line 69, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 72, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   .links__open .active {
     padding: 0.1rem 1rem;
     color: #f0423b;
     border: 2px solid #f0423b;
     text-decoration: none; }
 
-/* line 74, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+/* line 77, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
 .links {
   text-align: right;
   margin-top: 3rem; }
-  /* line 77, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 80, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   .links a {
     color: #69737c;
     font-size: 1.4rem;
     font-weight: 700;
     text-decoration: none;
     margin: 1.5rem; }
-  /* line 83, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 86, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   .links a:hover {
     text-decoration: none; }
-  /* line 85, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 88, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   .links .active {
     padding: 0.1rem 1rem;
     color: #f0423b;
     border: 2px solid #f0423b;
     text-decoration: none; }
 
-/* line 90, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+/* line 93, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
 #img-holder {
   margin-top: 10rem;
   margin-bottom: 10rem;
   height: auto;
   position: relative;
   text-align: center; }
-  /* line 96, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 99, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #img-holder .hide-holder {
     border: none; }
-  /* line 98, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 101, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #img-holder .show-holder {
     border: 0.1rem solid #69737c; }
-  /* line 100, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 103, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #img-holder .single-holder {
     position: relative;
     display: inline-block; }
-    /* line 103, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+    /* line 106, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
     #img-holder .single-holder:hover {
       border: 0.1rem solid #f0423b; }
-    /* line 105, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+    /* line 108, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
     #img-holder .single-holder .overlay {
       position: absolute;
       margin: 1rem;
@@ -131,7 +139,7 @@ html body {
       height: 26rem;
       background-color: rgba(240, 66, 59, 0.95);
       display: none; }
-      /* line 112, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+      /* line 115, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
       #img-holder .single-holder .overlay .plus-button {
         position: relative;
         top: 30%;
@@ -140,11 +148,11 @@ html body {
         height: 5rem;
         background-color: transparent;
         border: none; }
-        /* line 120, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+        /* line 123, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
         #img-holder .single-holder .overlay .plus-button i {
           color: #f7f9f8;
           font-size: 4.2rem; }
-      /* line 123, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+      /* line 126, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
       #img-holder .single-holder .overlay .filter-btn {
         margin: 1rem 0;
         position: relative;
@@ -155,29 +163,29 @@ html body {
         color: #f7f9f8;
         top: 5rem;
         left: 8rem; }
-  /* line 134, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 137, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #img-holder .single-holder:hover .overlay {
     display: block; }
-  /* line 137, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 140, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #img-holder img {
     width: 28rem;
     height: 28rem;
     padding: 1rem;
     float: left; }
-  /* line 142, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 145, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #img-holder .grayscale {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); }
-  /* line 145, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 148, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #img-holder .sepia {
     -webkit-filter: sepia(100%);
     filter: sepia(100%); }
-  /* line 148, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 151, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #img-holder .invert {
     -webkit-filter: invert(100%);
     filter: invert(100%); }
 
-/* line 152, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+/* line 155, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
 #contact {
   background: url("../img/contact-image.jpg") no-repeat;
   background-color: #69737c;
@@ -185,13 +193,13 @@ html body {
   clear: both;
   margin-top: 10rem;
   padding-bottom: 5rem; }
-  /* line 160, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 163, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #contact .contact-text {
     font-size: 3.2rem;
     font-weight: 300;
     color: white;
     margin-top: 5rem; }
-    /* line 166, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+    /* line 169, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
     #contact .contact-text::after {
       content: "";
       position: absolute;
@@ -200,7 +208,7 @@ html body {
       bottom: 0;
       left: 1.5rem;
       border-bottom: 0.2rem solid #f7f9f8; }
-  /* line 175, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 178, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #contact #name-input,
   #contact #email-input {
     width: 85%;
@@ -208,7 +216,7 @@ html body {
     box-sizing: border-box;
     background-color: transparent;
     border: 0.2rem solid #f7f9f8; }
-  /* line 183, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 186, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #contact .name-form-describe,
   #contact .email-form-describe {
     font-weight: 700;
@@ -216,23 +224,23 @@ html body {
     margin: 0;
     margin-top: 3rem;
     margin-bottom: 0.5rem; }
-  /* line 191, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 194, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #contact .contact-info {
     line-height: 2.2rem;
     margin-top: 4rem;
     font-weight: 500;
     font-size: 2rem;
     color: #f7f9f8; }
-  /* line 197, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 200, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #contact p:nth-child(2) {
     margin-top: 2rem; }
-  /* line 200, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 203, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #contact .message-form-describe {
     font-weight: 700;
     color: #f7f9f8;
     margin: 0;
     margin-top: 1rem; }
-  /* line 205, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 208, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #contact #message-input {
     width: 100%;
     padding: 1rem;
@@ -240,7 +248,7 @@ html body {
     box-sizing: border-box;
     background-color: transparent;
     border: 0.2rem solid #f7f9f8; }
-  /* line 213, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 216, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #contact #submit-input {
     margin-top: 1rem;
     background-color: #f0423b;
@@ -250,41 +258,41 @@ html body {
     font-size: 1.2rem;
     font-weight: 700;
     color: #f7f9f8; }
-  /* line 223, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 226, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #contact input[type="text"],
   #contact input[type="email"] {
     font-size: 2.4rem;
     color: #f7f9f8; }
 
 @media (max-width: 1199px) {
-  /* line 229, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 232, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   .contact-text:after {
     top: 4rem; } }
 
 @media (max-width: 769px) {
-  /* line 233, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 236, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   .logo h1 {
     font-size: 2rem; }
-  /* line 235, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 238, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   .links {
     display: none; }
-  /* line 237, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 240, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   .open-btn {
     display: block;
     margin-top: 2rem; }
-  /* line 240, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 243, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   .close-btn {
     margin-top: 2rem; }
-  /* line 243, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 246, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #contact #email-input,
   #contact #name-input {
     width: 100%; }
-  /* line 246, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 249, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #contact input[type="text"],
   #contact input[type="email"] {
     font-size: 1.8rem;
     color: #f7f9f8; }
-  /* line 251, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  /* line 254, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
   #contact .contact-info p {
     font-size: 1.4rem;
     line-height: 2rem;
