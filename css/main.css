@@ -298,14 +298,12 @@ html body {
   #contact .contact-info p {
     font-size: 1.4rem;
     line-height: 2rem;
-    font-weight: 400; } }
-
-/* line 260, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
-.nav-wrapper {
-  height: auto; }
-
-/* line 262, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
-#navigation {
-  height: auto; }
+    font-weight: 400; }
+  /* line 260, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  .nav-wrapper {
+    height: auto; }
+  /* line 262, C:/Users/Patryk/Desktop/CV , FRONT-END/ex_senetic/css/main.sass */
+  #navigation {
+    height: auto; } }
 
 /*# sourceMappingURL=main.css.map */
