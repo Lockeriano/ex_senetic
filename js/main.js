@@ -204,10 +204,10 @@ function mediaMatch(mq) {
 };
 
 function fixedNavbar() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.querySelector("nav").className = ("navbar-fixed");
   }
-  else if (document.body.scrollTop < 10 || document.documentElement.scrollTop < 10) {
+  else if (document.body.scrollTop < 50 || document.documentElement.scrollTop < 50) {
     document.querySelector("nav").className = ("");
   }
 };
